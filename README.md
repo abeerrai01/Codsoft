@@ -1,36 +1,38 @@
-Tasks
-**Task 1**: Number Guessing Game
-Generate a random number within a specified range, such as 1 to 100.
-Prompt the user to enter their guess for the generated number.
-Compare the user's guess with the generated number and provide feedback on whether the guess is correct, too high, or too low.
-Repeat steps 2 and 3 until the user guesses the correct number.
-Limit the number of attempts the user has to guess the number.
-Add the option for multiple rounds, allowing the user to play again.
-Display the user's score, which can be based on the number of attempts taken or rounds won.
-**Task 2**: Student Grade Calculator
-Input: Take marks obtained (out of 100) in each subject.
-Calculate Total Marks: Sum up the marks obtained in all subjects.
-Calculate Average Percentage: Divide the total marks by the total number of subjects to get the average percentage.
-Grade Calculation: Assign grades based on the average percentage achieved.
-Display Results: Show the total marks, average percentage, and the corresponding grade to the user.
-**Task 3**: ATM Interface
-Create a class to represent the ATM machine.
-Design the user interface for the ATM, including options such as withdrawing, depositing, and checking the balance.
-Implement methods for each option, such as withdraw(amount), deposit(amount), and checkBalance().
-Create a class to represent the user's bank account, which stores the account balance.
-Connect the ATM class with the user's bank account class to access and modify the account balance.
-Validate user input to ensure it is within acceptable limits (e.g., sufficient balance for withdrawals).
-Display appropriate messages to the user based on their chosen options and the success or failure of their transactions.
-**Task 4**: Currency Converter
-Currency Selection: Allow the user to choose the base currency and the target currency.
-Currency Rates: Fetch real-time exchange rates from a reliable API.
-Amount Input: Take input from the user for the amount they want to convert.
-Currency Conversion: Convert the input amount from the base currency to the target currency using the fetched exchange rate.
-Display Result: Show the converted amount and the target currency symbol to the user.
-**Task 5**: Student Management System
-Create a Student class to represent individual students. Include attributes such as name, roll number, grade, and any other relevant details.
-Implement a StudentManagementSystem class to manage the collection of students. Include methods to add a student, remove a student, search for a student, and display all students.
-Design the user interface for the Student Management System. This can be a console-based interface or a graphical user interface (GUI) using libraries like Swing or JavaFX.
-Implement methods to read and write student data to a storage medium, such as a file or a database.
-Allow users to interact with the Student Management System by providing options such as adding a new student, editing an existing student's information, searching for a student, displaying all students, and exiting the application.
-Implement input validation to ensure that required fields are not left empty and that the student data is in the correct format.
+About Codsoft
+Codsoft is a diverse community focused on leadership development, learning, and student engagement. We provide resources and opportunities for members to develop leadership skills through mentorship, workshops, and projects.
+
+Java Development Internship
+This internship requires the completion of at least three tasks. You are encouraged to refer to online resources, read tutorials, and watch videos for help.
+
+Tasks:-
+
+Task 1: Number Guessing Game
+Generate a random number (1-100).
+Prompt user to guess.
+Provide feedback: correct, too high, or too low.
+Limit attempts and allow multiple rounds.
+Display score based on attempts or rounds won.
+
+Task 2: Student Grade Calculator
+Input marks (out of 100) for each subject.
+Calculate total marks and average percentage.
+Assign grades based on average.
+Display total marks, average percentage, and grade.
+
+Task 3: ATM Interface
+Create ATM and Bank Account classes.
+Implement withdraw, deposit, and check balance methods.
+Design user interface for ATM operations.
+Validate user input and display appropriate messages.
+
+Task 4: Currency Converter
+Allow selection of base and target currencies.
+Fetch real-time exchange rates.
+Input amount and convert using exchange rate.
+Display converted amount and currency symbol.
+
+Task 5: Student Management System
+Create Student and StudentManagementSystem classes.
+Implement methods to add, remove, search, and display students.
+Design user interface (console or GUI).
+Read and write student data to a file or database.
