@@ -11,7 +11,6 @@ public class NumberGame {
             boolean attempt = false;
             System.out.println("I have generated a number between 1 and 100. Try to guess it!");
             int random = (int) (Math.random() * 100) + 1;
-            System.out.println(random);
             for (i = 1; i <= round; i++) {
                 System.out.print("Enter your guess: ");
                 guess = in.nextInt();
